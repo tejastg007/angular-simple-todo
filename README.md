@@ -1,27 +1,7 @@
-# SimpleTodo
+# How to install project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- clone the repo
+- install all node modules using : npm install
+- start the json server using : npx json-server --watch db.json - this will create a endpoint on the port number 3000. If it's different then don't forget to change the port number in the service.ts file.
+- run the project using : ng serve OR npm run start
+- that's it.
